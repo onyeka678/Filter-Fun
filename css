@@ -1,0 +1,61 @@
+body {
+  background-image:   url(https://image.freepik.com/free-photo/creative-table-background-with-paintbrushes-pencils-paper-sketches_203461-155.jpg); 
+  background-size: 100%;
+}
+
+.header {
+  text-align: center;
+  font-family: Courier;
+  color: black;
+}
+
+.h1stuff {
+  border-radius: 13px;
+  color: white;
+  border: solid;
+  padding-bottom: ;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: black;
+  
+}
+
+h1 {
+  font-size: 50px;
+}
+
+
+.canD {
+  width: 535px;
+  height: 355px;
+  border: dashed black;
+  border-width: 5px;
+  padding-right: 5px;
+  margin-left: %;
+  margin-top: 25px;
+  
+}
+
+.canvasntingz {
+  color: white;
+  border: solid;
+  text-align: left;
+  margin-right: 23%;
+  margin-top: 59px;
+  padding: 10px 0px 10px 12px;
+  margin-left: 25%;
+  border-radius: 30px;
+  background-color:black;
+ 
+}
+
+input {
+  font-size: 20px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.file {
+  background-color: rgba(212, 174, 243, 0.63);
+  
+}
