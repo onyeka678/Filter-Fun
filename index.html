@@ -1,0 +1,65 @@
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+
+<body>
+
+<div class="header">
+  <div class="h1stuff">
+<h1> Onyeka's Mini-Project  </h1>
+    
+  <h2> ~ Filter fun! ~ </h2>
+  </div>
+
+  <canvas id="can" class="canD"> </canvas>
+  
+  
+   <div class="canvasntingz">
+  <p>
+    <b>Choose an Image:</b>
+<input type="file" multiple="false" accept="image/*" id="finput" class="file"
+ onchange="loadImage()">
+   </p>
+   
+   <p>
+  <b> Pick a Filter: </b>
+  <input type="button" value="Red" id="redbut" onclick="makeRed()">
+  
+  <input type="button" value="Grayscale" id="graybut" onclick="makeGray()">
+ 
+  <input type="button" value="RainBow" id="rainbut"  onclick="makeRainbow()">    
+   <input type="button" value="Blur" onclick="makeitBlur()"> 
+     
+ <input type="button" value="Surprise" id="windbut" onclick="makeWindow()"> 
+     
+  
+       
+     
+  </p> 
+   
+ <p>
+   <b>Want the Image size? (H and W): </b>        
+   <input type="button" value="image size"  onclick="getSize()">
+   <p id="stuff">  </p>
+   
+   </p>
+   <p>
+   <b>Reset Image: </b>
+ <input type="button" value="reset" id="resbut" onclick="resetImage()">
+     
+</p> 
+       
+  </div> 
+
+  </div>
+  
+ 
+   
+   <p id="words"> </p>
+
+ 
+
+ 
+  
+       
+       
+</body>       
